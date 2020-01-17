@@ -1,6 +1,6 @@
 {
   "name": "begin-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Begin basic Vue app + API",
   "scripts": {
     "start": "npm run build && npm run api",
@@ -34,6 +34,6 @@
   "dependencies": {
     "element-ui": "^2.12.0",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1" 
+    "vuex": "^3.0.1"
   }
 }

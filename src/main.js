@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Router from 'vue-router'
-
+import test form './components/test'
 Vue.use(Router)
 
 
 const constantRouterMap = [
   {
     path: "/test",
-    component: () => import("@/components/test")
+    component: test
   }
 ]
 

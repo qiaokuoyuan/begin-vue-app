@@ -4,22 +4,27 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-Vue.config.productionTip = false
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
-
-
-
-
-export const constantRouterMap = [
+const constantRouterMap = [
   {
     path: "/test",
     component: () => import("@/components/test")
   }
 ]
 
-export default new Router({
+let router= new Router({
   routes: constantRouterMap
 })
+
+
+
+
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App),
+  router
+}).$mount('#app')
+
+
+

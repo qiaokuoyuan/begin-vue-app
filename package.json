@@ -1,6 +1,6 @@
 {
   "name": "begin-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Begin basic Vue app + API",
   "scripts": {
     "start": "npm run build && npm run api",

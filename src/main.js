@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import test from './components/test'
 Vue.use(Router)
 
@@ -12,7 +12,7 @@ const constantRouterMap = [
   }
 ]
 
-let router= new Router({
+let router= new VueRouter({
   routes: constantRouterMap
 })
 

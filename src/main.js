@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import test from './components/test'
-Vue.use(Router)
+Vue.use(VueRouter)
 
 
 const constantRouterMap = [
